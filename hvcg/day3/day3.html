@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        
+        <style>
+            span{
+                font-size: 20px;
+            }
+            div {
+                color:aqua;
+            }
+            h2 {
+                background-color: aquamarine;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        Block va inline
+
+        <div style="background-color:yellow; color: blue;">
+            Thẻ div: Dùng để đựng 1 cái bố cục nào đó. Dùng để chia bố cục của trang web
+            Không giới hạn bao nhiêu thẻ con bên trong
+            <div>1</div>
+            <div>2</div>
+            <div style="color: red">3</div>
+            Thẻ div cha: Dùng style sẽ bao được các thẻ con, áp dụng style cho tất cả các thẻ con bên trong
+        </div>
+        <span> Thẻ span: Nó là thẻ inline, không xuống dòng. Form chữ y chang thẻ p</span>
+        <span> Tiếp tục nằm trong một hàng</span>
+        <span>
+            Hello ..
+            <div>
+                programmer
+            </div>
+        </span>
+
+        <p style="background-color:yellow; color:blue">
+            Hello
+            <p style="color:red">world</p>
+        </p>
+        <p>world2</p>
+        
+        Quatation
+        <blockquote>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea, laboriosam optio neque labore nisi sequi, repellendus quasi quidem beatae tenetur quos eius nesciunt exercitationem, sit minus! Laboriosam distinctio, quaerat eaque explicabo a labore magni doloribus autem fuga, recusandae iure! Possimus quibusdam harum quis eius dolorum maiores ipsa, voluptas doloremque.
+        </blockquote>
+        <!--comment character-->
+        <p>< !-- Xoa comment --></p>
+        <!--Color-->
+        <p style="color: #030e1a">Mau hex</p>
+
+        <!--Dung css co ban: 3 cach
+        Inline: Dung thuoc tinh style, css thang vo cai the do luon. Recomend: khong nen dung vi inline luon uu tien nhat, nhung no se la nhuoc diem vi khó thay đổi
+        Internal: Tao 1 the style de tren head. Ưu điểm: Giảm chiều dài của thẻ, tuy nhiên gây code dài
+        External: Tao 1 file .css. 
+        Cach thu 2, thu 3 co do ưu tiên phụ thuộc vào vị trí đặt
+
+        -->
+
+        <h2 style="background-color:blueviolet">Inline</h2>
+        <h2>Internal</h2>
+        <h2>External</h2>
+
+    </body>
+</html>
