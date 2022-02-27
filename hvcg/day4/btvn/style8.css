@@ -1,0 +1,41 @@
+#image {
+    float:left;
+    width:38%;
+    /* padding:5px; */
+    margin-top: 5%;
+    text-align:center;
+    padding-left: 5%;
+    /* border:1px solid red; */
+}
+#table1 {
+    /* padding:20px; */
+    /* border:1px solid red; */
+    text-align:center;
+    width:50%;
+    float:right;
+}
+#endcolumn {
+    clear:left;
+}
+table {
+    border: 1px solid black;
+    margin-left: 20px;
+    /* width: 100%; */
+    border-collapse: collapse;
+}
+th {
+    background-color: orange;
+    color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#row1 {
+    background-color: #FFFFFF;
+}
+#row2 {
+    background-color: #FFEDCA;
+}

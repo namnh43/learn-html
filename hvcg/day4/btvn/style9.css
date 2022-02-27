@@ -1,0 +1,25 @@
+* {
+    font-family: Tahoma;
+    font-size: 12px;
+}
+table,td,th {
+    border: 1px solid orange;
+    border-collapse: collapse;
+}
+#subject {
+    color:#CC0033;
+}
+#title {
+    color:#CC0033;
+    font-size: 30px;
+    text-align: center;
+}
+#heading {
+    color:#FFFFFF;
+    font-style:bold;
+    background-color:#CC0033;
+}
+#mark {
+    text-align: center;
+    color:red
+}

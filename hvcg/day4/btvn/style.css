@@ -1,0 +1,28 @@
+#title1 {
+    border-width: 3px;
+    border-style: solid;
+    border-color:orange;
+    /* border-style: hidden; */
+}
+#title2 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: orange;
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold
+}
+#page1 {
+    text-align: left;
+}
+#heading2 {
+    text-align: right;
+    color:white;
+    background-color:orange;
+    font-size:30px;
+    font-weight: bold;
+}
+#page2 {
+    text-align: right;
+}
