@@ -1,0 +1,11 @@
+*{
+    color:cadetblue
+}
+table, tr,td {
+    border: 1px solid teal;
+    border-collapse: collapse;
+    background-color: bisque;
+}
+input, option, select {
+    color:black
+}

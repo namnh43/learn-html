@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bai 13</title>
+        <link rel="stylesheet" href="bai13.css">
+    </head>
+    <body>
+        <div>
+            <h1 style="text-align: center;">Đăng ký du lịch</h1>
+            <table width="600px">
+                <form autocomplete="on">
+                    <tr>
+                        <td>Họ và tên</td>
+                        <td>
+                            <input type="text" value="Phạm Ngọc Cẩm Đào" size="35px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Địa chỉ</td>
+                        <td>
+                            <input type="text" value="227 Nguyễn Văn Cừ">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Điện thoại</td>
+                        <td>
+                            <input type="text" value="123456789">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="vietnamese">Khách Việt Nam</label> 
+                        </td>
+                        <td>
+                            <input type="checkbox" id="vietnamese" checked>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Chọn tour</td>
+                        <td>
+                            <select>
+                                <optgroup label="Miền Bắc">
+                                    <option>Hà Nội - Hạ Long - Sapa</option>
+                                    <option>Hà Nội - Lạng Sơn</option>
+                                    <option>Hà Nội - Nghệ An</option>
+                                </optgroup>
+                                <optgroup label="Miền Trung">
+                                    <option>Huế - Bạch Mã - Đã Nẵng</option>
+                                    <option>Nhà Trang - Đà Lạt</option>
+                                    <option>Buôn mê thuột - Gia lai - Kontum</option>
+                                </optgroup>
+                                <optgroup label="Miền Nam">
+                                    <option>TP.HCM - Cần Thơ - Cà Mau</option>
+                                    <option>TP.HCM - Mỹ Tho</option>
+                                </optgroup>
+                                
+                            </select>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <fieldset>
+                                <legend style="text-align: left;">Số lượng đoàn khách</legend>
+                                <label for="adult">Người lớn</label>
+                                <!-- <input type="checkbox" id="adult"> -->
+                                <input type="number" id="adult" value="6">
+                                <label for="child">Trẻ em</label>
+                                <input type="number" id="child" value="4">
+                            </fieldset>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ghi chú thêm</td>
+                        <td>
+                            <select size="2">
+                                <option>Có 2 trẻ em dưới 6 tuổi</option>
+                                <option>Có 2 người ăn chay</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align:center">
+                            <input type="submit" value="Đồng ý">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align:center; font-style: italic;">
+                            Bạn đã đăng ký thành công!!!
+                        </td>
+                    </tr>
+                </form>
+                
+            </table>
+        </div>
+        
+    </body>
+</html>

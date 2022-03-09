@@ -1,0 +1,10 @@
+table, tr, th,td {
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color: aquamarine;
+}
+form {
+    padding:3px;
+    /* margin:10px; */
+    text-align: center
+}

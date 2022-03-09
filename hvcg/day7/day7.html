@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bai 7</title>
+    </head>
+    <body>
+        <form autocomplete="on">
+            <fieldset>
+                <legend>Khai báo y tế</legend>
+                <label form="fname">First name</label>
+                <input type="text" name="fname">
+            </fieldset>
+
+            <label form="vungmien">Vùng miền</label>
+            <select>
+                <optgroup label="Miền trung">
+                    <option value="">Huế</option>
+                    <option value="da">Đà nẵng</option>
+                </optgroup>
+                <optgroup label="Miền nam">
+                    <option value="" selected>Bến Tre</option>
+                    <option value="da">Tp.HCM</option>
+                </optgroup>
+            </select>
+            <br>
+            <label form="name">HỌ và tên:</label>
+            <input type="text" value="XXX" disabled>
+            <br>
+            <label form="name">HỌ và tên:</label>
+            <input type="text" value="XXX" readonly size="25">
+            <br>
+            <!-- <label form="name">HỌ và tên:</label> -->
+            <!-- <input type="text" required size="25"> -->
+            <br>
+            <label form="name">HỌ và tên:</label>
+            <input type="text" placeholder="Tìm kiếm ..." size="25">
+            <br>
+            <label form="name">HỌ và tên:</label>
+            <input type="password" >
+            <!-- <input type="text" pattern="[A-Z0-9][4]" title="sai ký tự"> -->
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        
+    </body>
+</html>

@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box
+}
+body {
+    background-color:antiquewhite
+}
+h1 {
+    color:coral;
+    text-align: center;
+}
+.div1 {
+    padding: 10px ;
+    background-color:white;
+    height: 60px;
+}
+
+.nav1 a {
+    margin-top:10px;
+    margin-left: 20px;
+    float: left
+}
+.nav1 a:hover {
+    color: aqua;
+}
+.nav1::after {
+    content: "";
+    clear: both;
+}
+.btn {
+    float: right;
+    /* position:center; */
+    background-image: url(lock_icon_125649.png);
+    background-repeat: no-repeat; 
+    background-position: left;
+    text-align:right;
+    border-radius: 5px;
+    height: 40px;
+    width:130px;
+}
+
+.div2 {
+    /* padding: 20px; */
+    background-color:gray;
+    color:white;
+}
+.div2 a {
+    /* background-color: red; */
+}
+.div2 span {
+    background-color:blue;
+    height: 300px;
+}
+
+.div2 nav {
+    /* float: left; */
+}

@@ -1,0 +1,21 @@
+* {
+    color:cadetblue;
+}
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+td {
+    color:brown;
+}
+form {
+    padding: 3px;
+    /* text-align: center */
+}
+input, select, option {
+    color:black
+}
+#submit {
+    text-align: center;
+}
