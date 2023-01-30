@@ -1,0 +1,29 @@
+#title1 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: orange;
+    padding: 5px;
+}
+#title2 {
+    border-style: solid;
+    border-color: orange;
+    text-align: center;
+    border-width: 1px;
+    color: orange;
+    font-weight: bold;
+}
+#title2:hover {
+    color: blue;
+}
+#title2:active {
+    color: red;
+}
+#heading {
+    text-align: right;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
