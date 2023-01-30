@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <style>
+        .important {
+            font-weight: bold;
+            font-size: 1em;
+        }
+    </style>
+    
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                // $("#list1").append("<li>Item added</li>")
+                $("div").addClass("important")
+            })
+            $("#btn2").click(function(){
+                console.log('remove')
+                // $("li:contains('added')").remove()
+                $("div").removeClass("important")
+            })
+        })
+    </script>
+    <ul id="list1">
+        <li>Item 1</li>
+    </ul>
+    <button id="btn1">Append </button>
+    <button id="btn2">Remove </button>
+    <div>This is another paragraph</div>
+</body>

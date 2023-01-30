@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button class="btn">Click to hide</button>
+    <button class="btn2">Click to show</button>
+    <button class="btn3">Click slide up</button>
+    <button class="btn4">Click slide down</button>
+    <button class="btn5">Click toogle</button>
+    <!-- <button class="btn6">Zoom in</button> -->
+    <p class="noidung">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo fuga officiis nesciunt accusantium alias dignissimos, est suscipit omnis, totam labore deleniti ab animi quod neque tenetur reiciendis iste cupiditate in?</p>
+    <p id="demo">Hello</p>
+    
+    <img class="spider-man" src="https://anhtuanptnk.files.wordpress.com/2014/04/the-amazing-spider-man-2-poster-banner-full.jpg?w=810">
+    <input id="demo2">
+    <script>
+        $(document).ready(function(){
+            $(".btn").click(function() {
+                $(".spider-man").fadeOut(2000);
+            })
+            $(".btn2").click(function() {
+                $(".spider-man").fadeIn(2000);
+            })
+
+            $(".btn3").click(function() {
+                $(".noidung").slideUp(1000);
+            })
+            $(".btn4").click(function() {
+                $(".noidung").slideDown(1000);
+            })
+            $(".btn5").click(function() {
+                $(".noidung").toggle(2000);
+            })
+            $(".btn5").dblclick(function() {
+                $(".noidung").text("hahah");
+            })
+            $("#demo").css({color:"red", background:"cyan"})
+            $(".spider-man").mouseenter(function(){
+                $(this).css({width: "700px"})
+                $(".noidung").text("hahah");
+            })
+            $(".spider-man").mouseleave(function(){
+                $(this).css({width: "300px"})
+                $(".noidung").text("hahahaaa");
+            })
+            $("#demo2").focus(function() {
+                $(this).css({background:"yellow"})
+            })
+            $("#demo2").blur(function() {
+                $(this).css({background:"red"})
+            })
+        });
+    </script>
+</body>

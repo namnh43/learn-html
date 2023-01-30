@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day15</title>
+        <style></style>
+    </head>
+    <body>
+        <h1
+            onmouseover="changeColor(this)" 
+            onmouseleave="restoreColor(this)"
+        >
+            Hello world
+        </h1>
+
+        <input 
+            type="text"
+            onkeydown="this.style.backgroundColor='red'"
+            onkeyup="this.style.backgroundColor='unset'"
+        >
+
+        <select id="sel" onChange="displayVal()">
+            <option value="1">Value 1</option>
+            <option value="2">Value 2</option>
+            <option value="3">Value 3</option>
+            <option value="4">Value 4</option>
+        </select>
+        <p id="text">Your value is: </p>
+
+        <script>
+            function changeColor(a) {
+                a.style.color = "red";
+                // a.style.fontSize = "50px";
+            }
+            function restoreColor(a) {
+                a.style.color="unset";
+                // a.style.fontSize="unset" 
+            }
+
+            function displayVal() {
+                var val = document.getElementById("sel").value;
+                document.getElementById("text").innerHTML= document.getElementById("text").innerHTML + val;
+            }
+        </script>
+    </body>
+</html>

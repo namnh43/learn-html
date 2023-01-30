@@ -1,0 +1,35 @@
+#container {
+    width: 800px;
+    overflow: auto;
+}
+#sliderbox {
+    position:relative;
+    width:3200px;
+    animation-name: slideranimation;
+    animation-duration:20s;
+}
+#sliderbox img {
+    float:left;
+}
+
+@keyframes slideranimation {
+    0% {
+        left: 0px;
+    }
+    20% /*4 second*/
+    {
+        left: 0px;
+    }
+    20% /*4 second*/
+    {
+        left: 0px;
+    }
+}
+
+header {
+    background-image: url("https://static3.srcdn.com/wordpress/wp-content/uploads/2021/08/Peter-and-Gwen-in-The-Amazing-Spider-Man-2-Cropped.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
